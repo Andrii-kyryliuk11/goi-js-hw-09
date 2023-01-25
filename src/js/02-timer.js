@@ -26,7 +26,7 @@ let timeRemaining = null;
 let intervalId = null;
 let timeComponents = null;
 
-refs = {
+const refs = {
   input: document.querySelector('#datetime-picker'),
   button: document.querySelector('[data-start]'),
   days: document.querySelector('[data-days]'),
